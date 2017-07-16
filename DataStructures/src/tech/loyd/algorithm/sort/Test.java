@@ -10,7 +10,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-		Integer[] array = {52,23,101,33,34,26,15,98};
+		Integer[] array = {8,3,2,6,7,1,5,4};
 		print(array);
 		
 		//测试插入排序
@@ -26,7 +26,10 @@ public class Test {
 		//ShellSort.shellSort(array);
 		
 		//测试堆排序
-		HeapSort.heapSort(array);
+		//HeapSort.heapSort(array);
+		
+		//测试归并排序
+		MergeSort.mergeSort(array);
 		
 		//print(array);
 	}
