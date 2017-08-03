@@ -1,4 +1,4 @@
-package tech.loyd.ds.tree.searchtree;
+package tech.loyd.ds.tree;
 
 public class BinarySearchTree<AnyType extends Comparable<? super AnyType>> {
 	private BinaryNode<AnyType> root;

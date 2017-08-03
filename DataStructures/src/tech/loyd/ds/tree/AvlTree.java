@@ -1,4 +1,4 @@
-package tech.loyd.ds.tree.searchtree;
+package tech.loyd.ds.tree;
 
 public class AvlTree<AnyType extends Comparable<? super AnyType>> {
 	/** The tree root. */
