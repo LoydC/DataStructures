@@ -26,7 +26,7 @@ public class MergeSort {
 		int tempPos = leftPos;
 		int numElements = rightEnd - leftPos + 1;
 		
-		while(leftPos <= rightPos && rightPos <= rightEnd){
+		while(leftPos <= leftEnd && rightPos <= rightEnd){
 			if(array[leftPos].compareTo(array[rightPos]) <= 0){
 				tempArray[tempPos++] = array[leftPos++];
 			}else{

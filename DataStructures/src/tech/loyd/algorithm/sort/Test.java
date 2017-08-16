@@ -17,7 +17,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-		Integer[] array = {329,457,657,839,436,720,355};
+		Integer[] array = {67,23,89,35,28,90,10,24};
 		print(array);
 		
 		//测试插入排序
@@ -36,7 +36,7 @@ public class Test {
 		//HeapSort.heapSort(array);
 		
 		//测试归并排序
-		//MergeSort.mergeSort(array);
+		MergeSort.mergeSort(array);
 		
 		//测试快速排序
 		//QuickSort.quickSort(array);
@@ -44,7 +44,7 @@ public class Test {
 		//测试桶排序
 		//BucketSort.bucketSort(array,100);
 		
-		RadixSort.radixSort(array, 3);
+		//RadixSort.radixSort(array, 3);
 		
 		//print(array);
 	}
